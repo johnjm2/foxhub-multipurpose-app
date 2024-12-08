@@ -1,0 +1,200 @@
+---
+title: Mobile Interactive app
+author: Joel John
+date: last-modified
+lightbox: true
+format:
+  html:
+    toc: true
+    embed-resources: true
+    theme: cosmo
+---
+
+* [LINK to FIGMA](https://www.figma.com/file/YjmhlSGo7soEKjmE85gtM2/FOXHUB-STORYBOARD?type=design&node-id=0-1&mode=design&t=HjGeV3atsptoL8ZO-0)
+
+* [LINK to Snack Editor](https://snack.expo.dev/@joyelljohn/foxhub)
+
+# Overview of FoxHub
+
+FoxHub is an innovative mobile application designed to serve as a comprehensive source for the latest news, weather updates, and FM radio entertainment. It aims to provide users with personalized news articles and headlines from around the world, alongside detailed weather forecasts and the ability to listen to local and national FM radio stations. The app features a user-friendly interface with a settings screen for personal customization, ensuring that users have control over their preferences for news, weather, and entertainment. By integrating with external APIs for weather data and possibly for news content, FoxHub ensures real-time accuracy and relevance. The app's design focuses on ease of use, aiming to keep users informed and entertained through a single, seamless platform.
+
+# Key features
+
+Below are the key features:
+
+- News Feed: Displays a list of news articles with headlines and thumbnails. Users can tap an article to read it in full.
+- Weather: Provides detailed weather information. This screen is accessible via the app's bottom navigation.
+- FM Radio: Lists available FM radio stations. Users can select a station to start listening.
+- Settings: Offers customization options for news preferences, weather settings, FM radio favorites, and notifications.
+
+# Individual Screen details
+
+Home Screen:
+
+Description: This screen serves as the primary landing page of your app, displaying a list of news articles.
+
+Features:
+
+- Displays a list of news articles with a thumbnail and headline.
+- Users can tap on an article to navigate to a detailed view.
+- The screen layout includes a distinctive header with the app's name.
+
+Weather Screen:
+
+Description: Provides current weather information and a forecast for Richmond, VA.
+
+Features:
+
+- Displays current weather conditions including temperature, humidity, and precipitation.
+- Shows a horizontal scrolling view of weather forecasts for upcoming days, detailing the high and low temperatures.
+- Includes a toggle switch for enabling notifications about weather changes.
+
+FM Radio Screen:
+
+Description: Simulates an FM radio interface where users can select and play different radio channels.
+
+Features:
+
+- Lists available radio channels with frequency details.
+- Users can select a channel to play, and toggle between play and pause with a button.
+
+Search Screen:
+
+Description: Allows users to search for specific topics or articles.
+
+Features:
+
+- A search bar where users can input text.
+- Displays a list of recommended search terms.
+- Users can submit a search query or select a recommended term to see results.
+
+Settings Screen:
+
+Description: Provides various settings options for the app.
+
+Features:
+
+- Lists different settings like Account, Notifications, Preferences, and Contact Us.
+- Tapping on a setting takes the user to a detailed settings page 
+
+
+## Main screen
+
+The main screen serves as the central node for this application.  All other screens return to this screen.
+
+![](./assets/home.jpg){height=400 fig-align="center"}
+
+
+### Interactivity on this screen
+
+
+
+### Wireframe design
+
+
+Below is my wireframe image
+
+![Home Screen](./assets/HomeFeed.png){height=400 fig-align="center"}
+
+![Weather Screen](./assets/weatherw.png){height=400 fig-align="center"}
+
+![Search](./assets/searchw.png){height=400 fig-align="center"}
+
+![Radio](./assets/Radio.png){height=400 fig-align="center"}
+
+![Settings](./assets/settingsw.png){height=400 fig-align="center"}
+
+
+### As-built screenshot
+
+Here is a screen shot of the image I created running on my phone.
+
+![Home Screen](./assets/IMG-20240430-WA0006.jpg){height=400 fig-align="center"}
+
+![Interactivity for Home Screen](./assets/IMG-20240430-WA0007.jpg){height=400 fig-align="center"}
+
+Home Screen:
+
+Description: This screen serves as the primary landing page of your app, displaying a list of news articles.
+
+Features:
+
+- Displays a list of news articles with a thumbnail and headline.
+- Users can tap on an article to navigate to a detailed view.
+- The screen layout includes a distinctive header with the app's name.
+
+![Interactivity for Weather Screen](./assets/IMG-20240430-WA0008.jpg){height=400 fig-align="center"}
+
+Weather Screen:
+
+Description: Provides current weather information and a forecast for Richmond, VA.
+
+Features:
+
+- Displays current weather conditions including temperature, humidity, and precipitation.
+- Shows a horizontal scrolling view of weather forecasts for upcoming days, detailing the high and low temperatures.
+- Includes a toggle switch for enabling notifications about weather changes.
+
+
+![Interactivity for FM Radio Screen - play button](./assets/IMG-20240430-WA0003.jpg){height=400 fig-align="center"}
+
+![Interactivity for FM Radio Screen - pause button](./assets/IMG-20240430-WA0003.jpg){height=400 fig-align="center"}
+
+FM Radio Screen:
+
+Description: Simulates an FM radio interface where users can select and play different radio channels.
+
+Features:
+
+- Lists available radio channels with frequency details.
+- Users can select a channel to play, and toggle between play and pause with a button.
+
+
+![Interactivity for Search Screen](./assets/search.1.png){height=400 fig-align="center"}
+
+Search Screen:
+
+Description: Allows users to search for specific topics or articles.
+
+Features:
+
+- A search bar where users can input text.
+- Displays a list of recommended search terms.
+- Users can submit a search query or select a recommended term to see results.
+
+
+![Settings Screen](./assets/IMG-20240430-WA0005.jpg){height=400 fig-align="center"}
+
+![Interactivity on Settings Screen](./assets/Settings.1.jpg){height=400 fig-align="center"}
+
+Settings Screen:
+
+Description: Provides various settings options for the app.
+
+Features:
+
+- Lists different settings like Account, Notifications, Preferences, and Contact Us.
+- Tapping on a setting takes the user to a detailed settings page 
+
+
+# Snack code for this screen
+
+
+```{=html}
+<div data-snack-id="@joyelljohn/foxhub" data-snack-platform="web" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#fbfcfd;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
+<script async src="https://snack.expo.dev/embed.js"></script>
+```
+
+# Reflection
+
+* Discuss your experience coding hooks in this assignment.  Which hooks were hardest?  Which easiest?  What helped you figure them out? 
+It was fun coding with hooks able to see the getting alive. Setting up the API for weather screen took the most time and effort. Refering to the official documents on how to implement properly helped solve the issue.
+* How much time did you spend on this specific assignment (homework 11 - interactivity)?
+I have spent about 6-8 hours
+* What was the easiest part of this specific assignment (hw11)?
+Easiest part was deifinitely filling out this report
+* What is the hardest part of this specific assignment (hw11)?
+Connecting OpenWeather API to app to get live weather updates.
+* Discuss your overall experience using Snack and developing this mobile app.
+I would say very convienent and easy to use. I like the feature of you getting live updates you can see on the screen.
+
